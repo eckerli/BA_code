@@ -1,5 +1,5 @@
-tensorflow>=2.15,<2.18
-numpy>=1.26,<2
+tensorflow>=2.15
+numpy>=1.26
 matplotlib>=3.8
 pandas>=2.0
 scipy>=1.11

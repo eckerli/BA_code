@@ -1,5 +1,7 @@
 # Generative Adversarial Networks (GANs) in finance: an overview
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eckerli/BA_code/blob/main/gans_in_finance.ipynb)
+
 This code is referenced in the paper https://arxiv.org/abs/2106.06364.
 
 It explores the use of Generative Adversarial Networks (GANs) for synthetic financial time series generation.
@@ -19,6 +21,8 @@ The notebook (`gans_in_finance.ipynb`) implements and compares 10 GAN variants a
 - **BigGAN / BigGAN-deep** — large-scale GAN architectures
 
 Each model is trained on 1D financial time series windows and evaluated on its ability to generate realistic synthetic data. Originally developed for Google Colab, adapted to run locally with TensorFlow.
+
+The default setting is DCGAN at 30 epochs, for ideal training configuration, refer to the related paper.
 
 ## Requirements
 

@@ -1,6 +1,6 @@
-tensorflow==2.16.2
-numpy==1.26.4
-matplotlib==3.10.8
-pandas==3.0.1
-scipy==1.17.1
-yfinance==1.2.0
+tensorflow>=2.15,<2.18
+numpy>=1.26,<2
+matplotlib>=3.8
+pandas>=2.0
+scipy>=1.11
+yfinance>=0.2.18
